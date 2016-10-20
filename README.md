@@ -1,4 +1,4 @@
-# haha
+# vue-cli多页面脚手架
 
 > A Vue.js project
 
