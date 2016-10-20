@@ -1,4 +1,4 @@
-# vue-cli多页面脚手架
+# vue-cli多页面应用
 
 > A Vue.js project
 
