@@ -1,12 +1,13 @@
 <template>
   <div id="app">
-    <img src="../../assets/logo.png">
+    <img src="./images/logo.png">
     <hello></hello>
   </div>
 </template>
 
 <script>
-  import Hello from 'components/Hello'
+  import 'common/css/reset.css';
+  import Hello from 'components/Hello/Hello'
 
   export default {
     name: 'app',
