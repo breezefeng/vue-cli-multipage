@@ -107,11 +107,6 @@ for (var pathname in pages) {
     filename: pathname + '.html',
     template: pages[pathname],   // 模板路径
     inject: true,              // js插入位置
-    minify: {
-      //removeComments: true,
-      //collapseWhitespace: true,
-      //removeAttributeQuotes: true
-    },
     // necessary to consistently work with multiple chunks via CommonsChunkPlugin
     chunksSortMode: 'dependency'
   };
